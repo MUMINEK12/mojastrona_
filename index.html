@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+	<meta charset="utf8">
+	<TITLE> FASHION </TITLE>
+	<head>
+	<link rel="shortcut icon" href="https://st2.depositphotos.com/7725722/12036/v/950/depositphotos_120366882-stock-illustration-glamorous-logo-for-a-beauty.jpg">
+</head>
+	<link rel="stylesheet" href="style.css">
+	
+	</HEAD>
+
+	<BODY>
+   
+	<div style>
+	
+	<UL>
+  <LI><A class=h2 href="index.html"> Moja strona </A> 
+  <br><br> 
+  <LI><A class=h2 href="https://4gentleman.pl/20-modowych-ciekawostek-o-ktorych-powinienes-wiedziec/"> Ciekawostki modowe </A>
+  <br><br>
+  <LI><A class=h2 href="https://kobieceinspiracje.pl/147096,moda-na-wiosne-2021-modne-stylizacje-z-dresami.html"> Informacje o modzie</A> 
+  <br><br>
+    </UL>
+	
+	
+	<h1 id='powitanie'> Witam </h1>
+	
+	<FORM  NAME="formularz">
+	<INPUT  TYPE="button"  VALUE="  CLICK  "  ONCLICK="powitaj();">
+	<br>
+
+	<script> 
+	var powitania=["Witaj", "Super, że wpadłeś!", "Jak Ci się podoba?"];
+	var i=0;
+	function powitaj(){
+		document.getElementById("powitanie").innerHTML = powitania[i];
+		i++;
+		if(i>=powitania.length) i=0;
+		setTimeout(powitaj, 2000) ;
+	}
+	</script> 
+	
+	<FORM ACTION="mailto:madziulkaa1245@gmail.com" METHOD="POST">
+
+		Podaj swoje imię:<br>
+		<Input Name="Imie"><br>
+
+		Wybierz swój ulubiony trend:<br>
+		<INPUT TYPE="checkbox" NAME="TRENDY " VALUE="BUFKI"> BUFKI
+		<INPUT TYPE="checkbox" NAME="TRENDY" VALUE="KWIATY"> KWIATY
+		<INPUT TYPE="checkbox" NAME="TRENDY" VALUE="FALBANY"> FALBANY
+		<INPUT TYPE="checkbox" NAME="TRENDY" VALUE="CEKINY"> CEKINY
+		<br><br>
+		
+		Podaj płeć:<br>
+		<INPUT TYPE="radio" NAME="plec" VALUE="kobieta" checked> Kobieta
+		<INPUT TYPE="radio" NAME="plec" VALUE="mezczyzna"> Mezczyzna
+		<br><br>
+		
+		Wybierz swój przedział wiekowy:<br>
+		<SELECT NAME="wiek">
+		<OPTION>13-17
+		<OPTION>18-22
+		<OPTION>23-26
+		<OPTION>26-35
+		</SELECT>
+		<br><br>
+		
+		<INPUT TYPE="submit" VALUE="WYŚLIJ" >
+		<INPUT TYPE="reset" VALUE="RESET">
+		
+	</FORM>
+	
+	
+	
+	<h3> TRENDY 2021 </h3>
+		
+		<center>
+	<table border="5">
+	<caption> MODNIASZKI </caption>
+	
+	<tr>
+		<th> MODA <th> UBRANIA 
+	<tr>
+		<td> Bufki <td> Sukienki 
+	<tr>
+		<td> Jeans <td> Spódnice 
+	<tr> 
+		<td> Kropki <td> Spodnie 
+	
+
+	</table>
+	</center>
+	<hr>
+	
+	<div id="wrapper"> 
+		<header> 
+		<img src="trendy.jpg" alt="trendy - header"/>
+		</header>
+		<nav>
+		<a class="menu active" href="#">O mnie</a>
+		<a class="menu" href="news.html">Aktualności</a>
+		
+		</nav>
+		
+		<section class="main home"> 
+				
+		<article> 
+		
+	    <p> Znane nam trendy ewoluują. Krata, wzory zwierzęce czy motywy kwiatowe będą wciąż modne wiosną i latem, ale w nieco zmienionej formule. Czyli mamy "to samo ale inaczej". </p>
+		<p> Wciąż modne będą przerysowane ramiona i duże bufki, również moda na cekiny z karnawałowych i wieczorowych stylizacji pozostanie z nami (w kolorach pudrowego różu, turkusu, szampana i lawendy). Skóra również: spodnie, spódnice (z falbanami) czy choćby mini w wytłaczaną skórę krokodyla, kolorowe, najlepiej w odcieniach pastelowego różu, błękitu, kremowego, karmelu czy modnej zieleni biskajskiej. Poza tym zwiewne szyfony i połyskująca satyna. </p>
+		</article>
+		
+		<article>
+		<p> Modne będą rozkloszowane spódnice i sukienki, falbany w hiszpańskim stylu, kobiece dekolty a także kroje asymetryczne. Dużo będzie nawiązań do stylu wiktoriańskiego oraz lat 70. i 90. </p>
+		<p> Powoli zanikają mocno eksponowane loga marek (logomania), spodenki rowerowe do marynarek (nie przyjęły się) czy marmurkowy jeans - ten również nie chwycił. W tym sezonie będą się przebijać jeansy slouchy czy też spodnie typu baloon. </p>
+		
+		</article>
+		
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/Wa3roJ5q_B0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		
+		</section>
+		<footer> Zapraszam do śledzenia dalszych postępów mojej strony! :)</footer>
+	</div>
+
+
+</BODY>
+</HTML>

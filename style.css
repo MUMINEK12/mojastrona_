@@ -1,0 +1,119 @@
+      *{margin: 0; 
+	  padding: 0; 
+	  font-family: arial;
+	  box-sizing: border-box
+	  }
+	  
+	  body {background-color: pink;}
+	  
+	  #wrapper {
+		  max-width: 1000px;
+		  margin: 0 auto 0 auto;
+		  background-color: white;
+	  }
+	UL {
+		padding:20px 40px;
+	}
+	  table {
+		  background-color:white;
+		  font-size:20px;
+		  width:30%;
+		  margin: 0 auto 0 auto;
+	  }
+	  h1 {
+		  color:black;
+		  padding:20px 30px;
+	  }
+	  h3 {
+		  color:purple;
+		  padding:15px 20px;
+	  }
+	
+	form {
+		width: 20px px;
+		margin:0 40px;
+		padding:20px 25px;
+	}
+	   header img {
+		   width:100%; 
+		   display: block;
+	   }
+	   
+	   nav {
+		   overflow:hidden;
+	   }
+	   nav {
+		   background-color: yellow;
+	   }
+	   
+	   nav a {
+		   height:50px;
+		   display:block;
+		   width:25%;
+		   float:left;
+		   color:white;
+		   text-align:center;
+		   text-decoration:none;
+		   background-color:blue;
+		   padding:20px 30px;
+		   transition:all 1s ease; 
+	   }
+	   nav a:hover {
+		   background-color:red;
+		   cursor:pointer;
+	   }
+		   
+	  a.menu {
+		   display:inline - block; 
+		   width:50%;
+		   padding:40px 60px;
+		   color:white;
+		   text-decoration:none; 
+		   text-align:center;
+	   }
+	a.menu:hover {
+		background-color: red;
+	}
+	 
+	.active {
+		background-color: black;
+	}
+	
+	article {
+		margin-top:30px;
+		margin-bottom:20px;
+	}
+	
+	 h3 {
+		font-size:30px;
+		text-align:center;
+		margin: 0 10% 20px 10%;
+		padding-bottom:15px;
+		border-bottom:6px solid white;
+	}
+	article p {
+		text-align: justify;
+		line-height:25px;
+		font-size:21px;
+		padding:16px;
+	}
+	
+	iframe {
+		width:100%;
+	}
+	footer {
+		height:40px;
+		background-color:purple;
+		color: white;
+		line-height:40px;
+		text-align: center;
+		margin-top:20px;
+	}
+	
+	section {
+		font-size:20px;
+		text-align:center;
+		margin: 0 5% 20px 5%;
+		padding-bottom:9px;
+		border-bottom:5px solid gray;
+	}
